@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className="items-center md:px-48 min-h-screen p-8 mt-12 gap-16 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+    <div className="items-center md:px-48 min-h-screen py-8  mt-12 gap-16 sm:p-10 font-[family-name:var(--font-geist-sans)]">
       <main className="">
         {/* <Image
           className="dark:invert"
@@ -12,7 +12,8 @@ export default function Home() {
           height={38}
           priority
         /> */}
-        <div className="bg-[#7D211F] rounded-lg  py-12 px-16 w-full  hover:shadow-2xl hover:shadow-orange-900 duration-300 ">
+
+        <div className="bg-[#7D211F] rounded-lg  py-12 sm:px-16 px-6 w-full  hover:shadow-2xl hover:shadow-orange-900 duration-300 ">
           <p
             className={
               " font-serif text-3xl font-medium text-[#F8E49F] mb-1  italic"
