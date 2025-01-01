@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center md:px-96 min-h-screen p-8 pb-20 gap-16 sm:p-10 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="items-center md:px-48 min-h-screen p-8 mt-12 gap-16 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+      <main className="">
         {/* <Image
           className="dark:invert"
           src="/next.svg"
@@ -12,47 +12,98 @@ export default function Home() {
           height={38}
           priority
         /> */}
-        <div className="bg-white rounded-xl py-12 px-16 w-full drop-shadow-md hover:-rotate-1 origin-bottom-left duration-200">
-          <p className={" font-serif text-5xl font-medium  mb-8 "}>
-            Secret New Year's Resolutions
+        <div className="bg-[#7D211F] rounded-lg  py-12 px-16 w-full drop-shadow-md hover:-rotate-1 origin-bottom-left duration-200 ">
+          <p
+            className={
+              " font-serif text-3xl font-medium text-[#F8E49F] mb-1  italic"
+            }
+          >
+            secret new year resolutions
           </p>
-          <div className="text-2xl font-serif">
-            <input type="text" className="bg-[#E1D6C0" />
+          <p className="font-serif text-xl text-[#F8E49F] mb-16">
+            (they last as long as your resolutions do)
+          </p>
+          <div className="text-2xl  font-serif">
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
 
-            <hr className="bg-red-500 border-[#AA8636] mt-4 mb-8 " />
-
-            <input type="text" className="bg-[#E1D6C0] w-full" />
-
-            <hr className="bg-red-500 border-[#AA8636] mt-4 mb-8" />
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
 
             <input
               type="text"
-              className="bg-[#E1D6C0] focus: ring-0 focus:ring-offset-0"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
             />
 
-            <hr className="bg-red-500 border-[#AA8636] mt-4 mb-8" />
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
 
             <input
               type="text"
-              className="bg-[#E1D6C0] outline-none font-serif"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
             />
 
-            <hr className="bg-red-500 border-[#AA8636] mt-4 mb-8" />
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
 
-            <input type="text" className="bg-[#E1D6C0" />
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
 
-            <hr className="bg-red-500 border-[#AA8636] mt-4 mb-4" />
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
+
+            <input
+              type="text"
+              className="w-full outline-none bg-[#7D211F] text-[#F8E49F]"
+            />
+
+            <hr className="border-[#F8E49F] mt-0.5 mb-1 " />
           </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4 mt-20"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 mt-20 mb-8"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made by electr1fy0
+          Made with pain by electr1fy0
         </a>
       </footer>
     </div>
