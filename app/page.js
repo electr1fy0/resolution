@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         /> */}
-        <div className="bg-[#7D211F] rounded-lg  py-12 px-16 w-full drop-shadow-md hover:-rotate-1 origin-bottom-left duration-200 ">
+        <div className="bg-[#7D211F] rounded-lg  py-12 px-16 w-full  hover:shadow-2xl hover:shadow-orange-900 duration-300 ">
           <p
             className={
               " font-serif text-3xl font-medium text-[#F8E49F] mb-1  italic"
@@ -98,10 +98,8 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4 mt-12 text-[#F8E49F] mb-8 font-mono"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 mt-12 text-[#d6c27d] mb-8 font-mono"
+          href="#"
         >
           Made with pain by electr1fy0
         </a>
